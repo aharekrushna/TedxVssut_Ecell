@@ -19,7 +19,11 @@ const config = {
         md: "2rem",
       },
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        helvetica: ['"Helvetica Neue"', 'Arial', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
